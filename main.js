@@ -30,7 +30,7 @@ function agregarTarea(tarea, id, realizado, eliminado) {
                         </li>
                     `;
   lista.insertAdjacentHTML("beforeend", elemento);
-}
+} //console.log( lista)
 // Crear la funcion tarea realizada
 function tareaRealizada(element) {
   element.classList.toggle(check);
